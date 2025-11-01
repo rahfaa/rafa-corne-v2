@@ -37,6 +37,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        af {
+            bindings = <&kp LC(C)>;
+            key-positions = <13 16>;
+        };
+
+        ad {
+            bindings = <&kp LC(V)>;
+            key-positions = <13 15>;
+        };
+
+        fa {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <13 14 16 15>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
