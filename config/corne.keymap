@@ -68,10 +68,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E                   &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O    &kp P      &kp BSPC
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D                   &kp F      &kp G    &kp H  &kp J      &kp K      &kp L    &kp COLON  &kp ENTER
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C                   &kp V      &kp B    &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH   &kp SINGLE_QUOTE
-                                &HML LEFT_WIN LEFT_ALT  &kp SPACE  &mo 1    &mo 1  &kp SPACE  &mo 2
+&kp TAB           &kp Q  &kp W  &kp E                   &kp R      &kp T    &kp Y  &kp U      &kp I          &kp O    &kp P      &kp BSPC
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D                   &kp F      &kp G    &kp H  &kp J      &kp K          &kp L    &kp COLON  &kp ENTER
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C                   &kp V      &kp B    &kp N  &kp M      &kp COMMA      &kp DOT  &kp FSLH   &kp SINGLE_QUOTE
+                                &HML LEFT_WIN LEFT_ALT  &kp SPACE  &mo 1    &mo 1  &kp SPACE  &kp BACKSPACE
             >;
         };
 
@@ -84,10 +84,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESCAPE            &kp MINUS                  &mt AMPERSAND N7          &mt ASTERISK N8       &mt LEFT_PARENTHESIS N9  &kp PLUS          &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACKET          &kp RIGHT_BRACKET
-&kp CAPS              &HML EXCLAMATION NUMBER_1  &HML AT_SIGN NUMBER_2     &HML HASH NUMBER_3    &mt DOLLAR NUMBER_4      &mt PERCENT N5    &mt CARET NUMBER_6    &mt AMPERSAND N7       &mt ASTERISK N8       &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &kp DOLLAR
-&kp NON_US_BACKSLASH  &kp N0                     &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3        &kp PERIOD        &kp LA(LS(MINUS))     &kp LS(LC(TAB))        &kp PAGE_DOWN         &kp PG_UP                &kp LC(TAB)               &kp TILDE
-                                                                           &kp TILDE             &kp SPACE                &kp LEFT_SHIFT    &kp SPACE             &kp LG(LS(LEFT))       &kp LS(LG(RIGHT))
+&kp ESCAPE            &kp NUMBER_1               &kp NUMBER_2    &kp NUMBER_3        &kp NUMBER_4         &kp N5            &kp NUMBER_6        &kp N7            &kp N8             &kp N9     &kp N0       &kp RIGHT_BRACKET
+&kp CAPS              &HML EXCLAMATION NUMBER_1  &kp UP_ARROW    &HML HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT N5    &mt CARET NUMBER_6  &mt AMPERSAND N7  &kp MINUS          &kp EQUAL  &kp SQT      &kp ENTER
+&kp NON_US_BACKSLASH  &kp LEFT_ARROW             &kp DOWN_ARROW  &kp RIGHT_ARROW     &mt HASH NUMBER_3    &kp PERIOD        &kp LA(LS(MINUS))   &kp LS(LC(TAB))   &kp PAGE_DOWN      &kp PG_UP  &kp LC(TAB)  &kp TILDE
+                                                                 &kp TILDE           &kp SPACE            &kp LEFT_SHIFT    &kp SPACE           &kp LG(LS(LEFT))  &kp LS(LG(RIGHT))
             >;
         };
 
